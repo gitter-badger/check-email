@@ -1,5 +1,6 @@
 # check-email
 [![Build Status](https://secure.travis-ci.org/easy-node/check-email.png?branch=master)](http://travis-ci.org/easy-node/check-email)
+[![NPM version](https://badge.fury.io/js/check-email.svg)](http://badge.fury.io/js/check-email)
 
 Check email is valid by a given format regex
 
