@@ -1,6 +1,6 @@
 {
     "name": "check-email",
-    "version": "0.0.8-collect-data",
+    "version": "0.0.9-ready-publish",
     "main": "check-email.js",
     "description": "Check email is valid by a given regex",
     "homepage": "https://github.com/easy-node/check-email",

@@ -1,4 +1,3 @@
-var emailData = require('./lib/emailData');
 /*
  * check-email
  * https://github.com/easy-node/check-email
@@ -26,6 +25,8 @@ var emailData = require('./lib/emailData');
  */
 
 'use strict';
+
+var emailData = require('./lib/emailData');
 
 module.exports = function (regex, cb) {
 
