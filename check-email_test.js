@@ -3,6 +3,16 @@
 var checkEmail = require('./check-email'),
     emailData = require('./lib/emailData');
 
+/**
+ * private method
+ *
+ * @param obj
+ * @returns {string} type of parameter
+ */
+var type = function (obj) {
+    return Object.prototype.toString.call(obj).match(/\s([a-zA-Z]+)/)[1].toLowerCase();
+};
+
 /*
  ======== A Handy Little Nodeunit Reference ========
  https://github.com/caolan/nodeunit
@@ -23,16 +33,12 @@ var checkEmail = require('./check-email'),
  test.ifError(value)
  */
 
-var type = function (obj) {
-    return Object.prototype.toString.call(obj).match(/\s([a-zA-Z]+)/)[1].toLowerCase();
-};
-
 exports['checkEmail'] = {
     setUp: function (done) {
         // setup here
         done();
     },
-    'no args': function (test) {
+    'all': function (test) {
         test.expect(4);
         // tests here
         checkEmail(/.*/, function (err, data) {

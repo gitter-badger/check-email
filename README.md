@@ -2,7 +2,7 @@
 [![Build Status](https://secure.travis-ci.org/easy-node/check-email.png?branch=master)](http://travis-ci.org/easy-node/check-email)
 [![NPM version](https://badge.fury.io/js/check-email.svg)](http://badge.fury.io/js/check-email)
 
-Check email is valid by a given format regex
+Testing and Checking email regex
 
 ## Getting Started
 Install the module with: `npm install check-email`
@@ -19,7 +19,7 @@ checkEmail(regex, function (err, data) {
     console.log(data);
     // do anything, especially for testing
 
-/*
+    /*
     {
         pass:[{
                 value: 'huei90@gmail.com',
@@ -47,7 +47,7 @@ checkEmail(regex, function (err, data) {
             }
         ]
     };
-*/
+    */
 });
 ```
 
