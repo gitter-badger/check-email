@@ -5,7 +5,11 @@
 Testing and Checking email regex
 
 ## Getting Started
-Install the module with: `npm install check-email`
+Install the module with
+
+```bash
+$ npm install --save check-email
+```
 
 ## Usage
 
@@ -49,6 +53,13 @@ checkEmail(regex, function (err, data) {
     };
     */
 });
+```
+
+## CLI
+
+```bash
+$ npm install -g check-email
+$ checkemail -h
 ```
 
 ## License
