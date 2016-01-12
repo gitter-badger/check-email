@@ -1,4 +1,6 @@
 # check-email
+
+[![Join the chat at https://gitter.im/easy-node/check-email](https://badges.gitter.im/easy-node/check-email.svg)](https://gitter.im/easy-node/check-email?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://secure.travis-ci.org/easy-node/check-email.png?branch=master)](http://travis-ci.org/easy-node/check-email)
 [![NPM version](https://badge.fury.io/js/check-email.svg)](http://badge.fury.io/js/check-email)
 
